@@ -15,7 +15,7 @@ SESSION_ID: process.env.SESSION_ID || "LAKA-MD=BghFiLxD#dw1dUzZor8-2fqimMOfr9YWK
 //නැත්තම් bot deploy කරහම .settings comade එක use කරලත් වෙනස් කරගන්න පුලුවන්..🎊
 
 PREFIX: process.env.PREFIX || '.' ,
-MODE: process.env.MODE === undefined ?"private" : process.env.MODE,
+MODE: process.env.MODE === undefined ?"public" : process.env.MODE,
 AUTO_VOICE: process.env.AUTO_VOICE === undefined ? "false" : process.env.AUTO_VOICE,
 AUTO_REPLY: process.env.AUTO_REPLY === undefined ? "false" : process.env.AUTO_REPLY,
 AUTO_STICKER: process.env.AUTO_STICKER === undefined ? "false" : process.env.AUTO_STICKER,
